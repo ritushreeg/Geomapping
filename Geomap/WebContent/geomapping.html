@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ext3.2.0/resources/css/ext-all.css" />
+
+  <!-- ExtJS library: base/adapter -->
+    <script type="text/javascript" src="ext3.2.0/adapter/ext/ext-base.js"></script>
+
+    <!-- ExtJS library: all widgets -->
+    <script type="text/javascript" src="ext3.2.0/ext-all.js"></script>
+    
+     <!-- extensions -->
+    <script type="text/javascript" src="ext3.2.0/ux/CheckColumn.js"></script>
+      <script type="text/javascript" src="ext3.2.0/ux/GVisualization/GVisualizationPanel.js"></script>
+    
+    
+<script type="text/javascript">
+Ext.onReady(function() {
+		var countryStore = new Ext.data.SimpleStore({
+		    fields: [{
+		        name: 'Country',
+		        type: 'string'
+		    },{
+		 
+		        name: 'pop',
+		        type: 'int'
+		    },{
+		        name: 'area',
+		        type: 'int'
+		    }],
+		    data: [
+		        ['CN', 1324, 9640821],        
+		        ['IN', 1134, 3287263],
+		        ['US', 304, 9629091],
+		        ['ID', 232, 1904569],
+		        ['BR', 187, 8514877]        
+		    ]
+		});
+		var intensityMap = new Ext.ux.GVisualizationPanel({
+		    id: 'intensityMap',
+		    visualizationPkg: 'intensitymap',
+		    title: 'Intensity Map Sample',
+		    store: countryStore,
+		    columns: ['Country',{
+		        dataIndex: 'pop',
+		        label: 'Population (mil)'
+		    },{
+		        dataIndex: 'area',
+		        label: 'Area (km2)'
+		    }]
+		});
+		});
+
+</script>
+</head>
+<body> <div id="grid-example"></div>
+</body>
+</html>

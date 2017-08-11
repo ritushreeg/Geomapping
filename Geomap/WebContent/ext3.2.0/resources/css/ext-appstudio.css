@@ -1,0 +1,65 @@
+  
+.msai_toolreports    
+    {
+        background-image: url(../images/default/msi/appstudio/viewreports.gif) !important;
+    }      
+    
+.msai_toolcancel    
+    {
+        background-image: url(../images/default/msi/appstudio/cancel.gif) !important;
+    }    
+    
+.msai_toolsubmit    
+    {
+        background-image: url(../images/default/msi/appstudio/submit.gif) !important;
+    }     
+    
+.msai_toolprint    
+    {
+        background-image: url(../images/default/msi/appstudio/print.gif) !important;
+    }     
+
+.msai_tooldefault    
+    {
+        background-image: url(../images/default/msi/appstudio/edit.gif) !important;
+    } 
+
+.msai_tooldisabled    
+    {
+        background-image: url(../images/default/msi/appstudio/disabled.gif) !important;
+    } 
+
+.msai_toolsingleedit    
+    {
+        background-image: url(../images/default/msi/appstudio/singleedit.gif) !important;
+    }  
+    
+.msai_toolsave
+    {
+        background-image: url(../images/default/msi/appstudio/save.gif) !important;
+    } 
+    
+.msai_toolsaveandclose
+    {
+        background-image: url(../images/default/msi/appstudio/saveandclose.gif) !important;
+    }
+.msai_toolsavedraftandclose
+    {
+        background-image: url(../images/default/msi/appstudio/savedraftandclose.gif) !important;
+    }
+.msai_toolsavenew
+    {
+        background-image: url(../images/default/msi/appstudio/new_save.gif) !important;
+    }
+.msai_toolsubmitnew
+    {
+        background-image: url(../images/default/msi/appstudio/submit_new.gif) !important;
+    }
+.msai_toolcancelnew    
+    {
+        background-image: url(../images/default/msi/appstudio/cancel_new.gif) !important;
+    }  
+.msai_toolsavedraft    
+    {
+        background-image: url(../images/default/msi/appstudio/savedraft.gif) !important;
+    }  
